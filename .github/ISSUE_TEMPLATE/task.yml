@@ -1,0 +1,13 @@
+name: Task
+description: Setup, ops, docs, or a decision
+type: Task
+projects: ["KomPACS/1"]
+body:
+  - type: textarea
+    attributes:
+      label: What and why
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Done when

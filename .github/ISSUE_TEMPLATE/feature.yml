@@ -1,0 +1,13 @@
+name: Feature
+description: A new capability or outcome
+type: Feature
+projects: ["KomPACS/1"]
+body:
+  - type: textarea
+    attributes:
+      label: What and why
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Spec or links

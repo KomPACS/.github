@@ -1,0 +1,13 @@
+name: Bug
+description: Something does not work as expected
+type: Bug
+projects: ["KomPACS/1"]
+body:
+  - type: textarea
+    attributes:
+      label: What happens, and what you expected
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
